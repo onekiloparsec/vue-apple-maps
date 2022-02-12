@@ -1,8 +1,8 @@
 import { setMapOptions } from './mapkit'
-import VueAppleMaps from './VueAppleMaps.vue'
+import VueAppleMap from './VueAppleMap.vue'
 
 export {
-  VueAppleMaps
+  VueAppleMap
 }
 
 export default {

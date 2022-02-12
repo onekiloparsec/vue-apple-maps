@@ -1,12 +1,12 @@
 <template>
-  <VueAppleMaps class="map"/>
+  <VueAppleMap class="map"/>
 </template>
 
 <script>
-  import VueAppleMaps from './components/VueAppleMaps.vue'
+  import VueAppleMap from './components/VueAppleMap.vue'
 
   export default {
-    components: { VueAppleMaps }
+    components: { VueAppleMap }
   }
 </script>
 

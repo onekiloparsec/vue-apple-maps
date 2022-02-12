@@ -22,7 +22,8 @@ Once you have a token, place it inside a file `.env`:
 VITE_APP_APPLEMAPS_TOKEN=<your token>
 ```
 
-Then, in your Vue3 app, install the plugin:
+Then, in your Vue3 app, install the plugin (not the plural, the plugin
+being named like the lib):
 
 ``` js
 import { createApp } from 'vue'
@@ -40,19 +41,19 @@ createApp(App)
   .mount('#app')
 ```
 
-Finally, in one of your components:
-
+Finally, in one of your components (note the singular to indicate the 
+Map component):
 
 ```vue
 <template>
-  <VueAppleMaps class="map"/>
+  <VueAppleVueAppleMapMaps class="map"/>
 </template>
 
 <script>
-  import { VueAppleMaps } from 'VueAppleMaps'
+  import { VueAppleMap } from 'VueAppleMaps'
 
   export default {
-    components: { VueAppleMaps }
+    components: { VueAppleMap }
   }
 </script>
 ```
