@@ -46,7 +46,7 @@ Map component):
 
 ```vue
 <template>
-  <VueAppleVueAppleMapMaps class="map"/>
+  <VueAppleMap class="map"/>
 </template>
 
 <script>
