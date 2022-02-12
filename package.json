@@ -7,6 +7,26 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-mapkit.umd.js",
+  "module": "./dist/vue-mapkit.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-mapkit.es.js",
+      "require": "./dist/vue-mapkit.umd.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onekiloparsec/vue-mapkitjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onekiloparsec/vue-mapkitjs/issues"
+  },
+  "homepage": "https://github.com/onekiloparsec/vue-mapkitjs#readme",
+  "license": "MIT",
   "dependencies": {
     "vue": "^3.2.25"
   },
